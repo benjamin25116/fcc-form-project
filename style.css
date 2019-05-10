@@ -1,0 +1,144 @@
+* {
+ margin: 0px;
+ padding: 0px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;
+ box-sizing: border-box;
+}
+
+#banner {
+ background: url("https://images.pexels.com/photos/1094770/pexels-photo-1094770.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260") center top / contain fixed no-repeat;
+ max-width: 100vw;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#title {
+ font-size: 3rem;
+ color: white;
+}
+
+#survey-form {
+ display: grid;
+ grid-template: repeat(10, auto) / 25vw 50vw;
+ justify-content: center;
+ align-items: top;
+ margin: auto;
+ background-color: blanchedalmond;
+ grid-gap: 30px 20px;
+}
+
+#description {
+ max-width: 1000px;
+ width: 100vw;
+ text-align: center;
+ padding: 20px;
+ font-size: 1.5rem;
+}
+
+#name-label {
+ grid-column: 1/2;
+ grid-row: 2/3;
+ text-align: right;
+}
+
+#name {
+ grid-column: 2/3;
+ grid-row: 2/3;
+}
+
+#email-label {
+ grid-column: 1/2;
+ grid-row: 3/4;
+ text-align: right;
+}
+
+#email {
+ grid-column: 2/3;
+ grid-row: 3/4;
+}
+
+#age-label {
+ grid-column: 1/2;
+ grid-row: 4/5;
+ text-align: right;
+}
+
+#age {
+ grid-column: 2/3;
+ grid-row: 4/5;
+}
+
+#dropdown-label {
+ grid-column: 1/2;
+ grid-row: 5/6;
+ text-align: right;
+}
+
+#dropdown {
+ grid-column: 2/3;
+ grid-row: 5/6;
+}
+
+#rating-label {
+ grid-column: 1/2;
+ grid-row: 6/7;
+ text-align: right;
+}
+
+#radio-buttons {
+ grid-column: 2/3;
+ grid-row: 6/7;
+}
+
+#rating {
+ margin-bottom: 15px;
+}
+
+#project-label {
+ grid-column: 1/2;
+ grid-row: 7/8;
+ text-align: right;
+}
+
+#checkboxes {
+ grid-column: 2/3;
+ grid-row: 7/8;
+}
+
+#projects {
+ margin-bottom: 15px;
+}
+
+#comment-label {
+ grid-column: 1/2;
+ grid-row: 8/9;
+ text-align: right;
+}
+
+#comment {
+ grid-column: 2/3;
+ grid-row: 8/9;
+ padding: 10px 15px;
+ font-size: 0.8rem;
+}
+
+#submit {
+ grid-column: 1/3;
+ grid-row: 9/10;
+ width: 200px;
+ justify-self: center;
+ border: 2px solid peru;
+ padding: 5px 20px;
+ border-radius: 8px;
+ background: orange;
+ color: white;
+ font-size: 1rem;
+}
+
+input {
+ padding: 5px 10px;
+ font-size: 0.7rem;
+}
