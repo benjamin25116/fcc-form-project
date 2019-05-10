@@ -60,13 +60,13 @@
  grid-row: 3/4;
 }
 
-#age-label {
+#number-label {
  grid-column: 1/2;
  grid-row: 4/5;
  text-align: right;
 }
 
-#age {
+#number {
  grid-column: 2/3;
  grid-row: 4/5;
 }
