@@ -13,16 +13,16 @@
  <div id="banner">
   <h1 id="title">Survey Form</h1>
  </div>
- <p id="description">It was great having you guys in the course this term. <br> Let me know how I can improve it!
+ <p id="description">It was great having you guys in the course this term. Let me know how I can improve it!
  </p>
  <form action="#" id="survey-form">
-  <label for="name" id="name-label">* Name</label> <br>
+  <label for="name" id="name-label">* Name</label>
   <input type="text" name="name" required id="name" placeholder="Enter your name"> <br>
-  <label for="email" id="email-label">* Email</label> <br>
+  <label for="email" id="email-label">* Email</label>
   <input type="email" name="email" required id="email" placeholder="Enter your email"> <br>
-  <label for="age" id="number-label">* Age</label> <br>
+  <label for="age" id="number-label">* Age</label>
   <input type="number" name="age" id="number" min="18" max="99" placeholder="Enter your age"> <br>
-  <label for="dropdown" id="dropdown-label">* Which programme are you enrolled in?</label> <br>
+  <label for="dropdown" id="dropdown-label">* Which programme are you enrolled in?</label>
   <select id="dropdown" name="programme" required>
    <option value="ASET">ASET</option>
    <option value="ELL">ELL</option>
@@ -30,7 +30,7 @@
    <option value="SOB">SOB</option>
   </select>
   <br>
-  <label for="rating" id="rating-label">* How would you rate your satisfaction with this course?</label> <br>
+  <label for="rating" id="rating-label">* How would you rate your satisfaction with this course?</label>
   <div id="radio-buttons">
    <input type="radio" value="1" id="rating" name="rating"> 1 - it was terrible <br>
    <input type="radio" value="2" name="rating" id="rating"> 2 - lots of room for improvement <br>
@@ -39,7 +39,6 @@
    <input type="radio" value="5" name="rating" id="rating"> 5 - It was lit! <br>
   </div>
   <label for="projects" id="project-label">Which projects did you enjoy making? <br> (check all that apply)</label>
-  <br>
   <div id="checkboxes">
    <input type="checkbox" name="projects" id="projects" value="Coasters"> Coasters <br>
    <input type="checkbox" name="projects" id="projects" value="Mallet"> Mallet <br>
@@ -48,8 +47,8 @@
    <input type="checkbox" name="projects" id="projects" value="Cake knife"> Cake knife <br>
    <input type="checkbox" name="projects" id="projects" value="Pencil case"> Pencil case <br>
   </div>
-
-  <label for="comment" id="comment-label">Any comments or suggestions?</label><br>
+  <br>
+  <label for="comment" id="comment-label">Any comments or suggestions?</label>
   <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter comments here"></textarea> <br>
   <input type="submit" value="Submit form" id="submit">
  </form>
