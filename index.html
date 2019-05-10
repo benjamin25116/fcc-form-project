@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link rel="stylesheet" href="./style.css">
+ <title>Lesson Feedback</title>
+</head>
+
+<body>
+ <div id="banner">
+  <h1 id="title">Survey Form</h1>
+ </div>
+ <div id="grid">
+  <p id="description">It was great having you guys in the course this term. <br> Let me know how I can improve the
+   course!
+  </p>
+  <form action="#" id="survey-form">
+   <label for="name" id="name-label">* Name</label> <br>
+   <input type="text" required id="name" placeholder="Enter your name"> <br>
+   <label for="email" id="email-label">* Email</label> <br>
+   <input type="email" required id="email" placeholder="Enter your email"> <br>
+   <label for="age" id="age-label">* Age</label> <br>
+   <input type="number" id="age" min="18" max="99" placeholder="Enter your age"> <br>
+   <label for="dropdown" id="dropdown-label">* Which programme are you enrolled in?</label> <br>
+   <select id="dropdown" required>
+    <option value="ASET">ASET</option>
+    <option value="ELL">ELL</option>
+    <option value="SOSA">SOSA</option>
+    <option value="SOB">SOB</option>
+   </select>
+   <br>
+   <label for="rating">How would you rate your satisfaction with this course?</label> <br>
+   <input type="radio" value="1" checked id="rating" name="rating"> 1 - it was terrible <br>
+   <input type="radio" value="2" name="rating" id="rating"> 2 - lots of room for improvement <br>
+   <input type="radio" value="3" name="rating" id="rating"> 3 - I'm cool with it <br>
+   <input type="radio" value="4" name="rating" id="rating"> 4 - I enjoyed the course <br>
+   <input type="radio" value="5" name="rating" id="rating"> 5 - It was lit! <br>
+
+   <label for="projects">Which projects did you enjoy making? <br> (check all that apply)</label> <br>
+   <input type="checkbox" id="projects" value="Coasters"> Coasters <br>
+   <input type="checkbox" id="projects" value="Mallet"> Mallet <br>
+   <input type="checkbox" id="projects" value="Box"> Box <br>
+   <input type="checkbox" id="projects" value="Bench hook"> Bench hook <br>
+   <input type="checkbox" id="projects" value="Cake knife"> Cake knife <br>
+   <input type="checkbox" id="projects" value="Pencil case"> Pencil case <br>
+   <label for="some-textarea">Any comments or suggestions?</label><br>
+   <textarea name="text-input" id="some-textarea" cols="30" rows="10"></textarea> <br>
+   <input type="submit" value="Submit form" id="submit">
+  </form>
+ </div>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
